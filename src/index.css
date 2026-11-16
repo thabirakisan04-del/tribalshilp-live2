@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-family: 'DM Sans', sans-serif; color: #23382a; font-synthesis: none; text-rendering: optimizeLegibility; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: #faf8f2; }
+button, input, textarea, select { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
+::selection { background: #dce8da; }
+::-webkit-scrollbar { width: 7px; }
+::-webkit-scrollbar-thumb { background: #d4d9ce; border-radius: 8px; }
+.safe-bottom { padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
